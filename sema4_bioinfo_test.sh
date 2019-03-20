@@ -1,6 +1,6 @@
-!#/usr/bin/env bash 
+#!/usr/bin/env bash 
 
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # question 1
 python3 compare_two_fastas.py --help 
@@ -10,7 +10,7 @@ python3 compare_two_fastas.py --fasta_refs \
 
 
 # question 2 
-python3 retrieve_coding_exons_for_genes --help
+python3 retrieve_coding_exons_for_genes.py --help
 python3 retrieve_coding_exons_for_genes.py --genes BRCA1 BRCA2
 
 
