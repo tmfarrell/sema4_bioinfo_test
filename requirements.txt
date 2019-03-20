@@ -1,0 +1,4 @@
+wget
+biopython
+pandas
+mysql-connector
